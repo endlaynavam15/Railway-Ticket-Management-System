@@ -15,10 +15,15 @@ from email import encoders
 
 
 def sendmail(name,phno,age,gender,trainno,fr,to,date,email):
+<br>
     msg = MIMEMultipart()
+<br>
     msg['From'] = "srikaanth2005@gmail.com"
+<br>
     msg['To'] = email
+<br>
     msg['Subject'] = "Railway booking confirmation."
+<br>
 
     # string to store the body of the mail
     body = f"Name : {name}\nPhone number : {phno}\nAge: {age}\nGender: {gender}\nTrain No.: {trainno}\nDeparture: {fr}\nDestination: {to}\nDate: {date}"
