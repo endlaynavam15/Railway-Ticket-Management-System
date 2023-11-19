@@ -104,7 +104,7 @@ def menu():
     else:
         print('ERROR 404: ERROR PAGE NOT FOUND')
 ```
-def ticket_booking():
+```def ticket_booking():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -141,8 +141,9 @@ def ticket_booking():
             cursor.execute("update trains set seats=seats-{} where trainno={}".format(seats,trainno))
         else:
             print("Tickets not available")
+```
         
-def ticket_checking():
+```def ticket_checking():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -172,10 +173,10 @@ def ticket_checking():
         print('THANK YOU')
     else:
         print('ERROR 404:PAGE NOT FOUND')
-    
+```    
        
 
-def ticket_cancelling():
+```def ticket_cancelling():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -184,9 +185,9 @@ def ticket_cancelling():
     s1="delete from railway where phno={}".format(phno)
     cursor.execute(s1)
     print('TICKET CANCELLED')
-
+```
         
-def checking_2():
+```def checking_2():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -218,7 +219,7 @@ def checking_2():
             print('ERROR 404:PAGE NOT FOUND')
     
     return False
-        
+ ```       
 
 def checking_1():
     import mysql.connector
