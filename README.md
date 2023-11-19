@@ -77,7 +77,8 @@ def menu():
             break
         else:
             print('ERROR 404:PAGE NOT FOUND')
-            break```
+            break
+```
 def main():        
     print('1.yes')
     print('2.no')
