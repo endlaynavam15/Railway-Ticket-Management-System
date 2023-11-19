@@ -79,7 +79,7 @@ def menu():
             print('ERROR 404:PAGE NOT FOUND')
             break
 ```
-def main():        
+```def main():        
     print('1.yes')
     print('2.no')
     c=int(input("do you want to continue or not:"))
@@ -103,6 +103,7 @@ def main():
             print('WRONG INPUT')
     else:
         print('ERROR 404: ERROR PAGE NOT FOUND')
+```
 def ticket_booking():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
