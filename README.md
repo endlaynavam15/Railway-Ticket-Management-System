@@ -1,4 +1,4 @@
-# Railway-Ticket-Management-System
+# Railway-Ticket-Reservation-System
 
 #PROJECT MEMBERS - R.Y. SRIKAANTH (RA2311003011211) & Navam Endlay (RA2311003011207)
 <br>
