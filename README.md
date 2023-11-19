@@ -3,10 +3,15 @@
 #PROJECT MEMBERS - R.Y. SRIKAANTH (RA2311003011211) & Navam Endlay (RA2311003011207)
 <br>
 import smtplib
+<br>
 from email.mime.multipart import MIMEMultipart
+<br>
 from email.mime.text import MIMEText
+<br>
 from email.mime.base import MIMEBase
+<br>
 from email import encoders
+<br>
 
 
 def sendmail(name,phno,age,gender,trainno,fr,to,date,email):
