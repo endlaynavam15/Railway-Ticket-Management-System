@@ -44,7 +44,7 @@ def sendmail(name,phno,age,gender,trainno,fr,to,date,email):
     s.quit()
 #sendmail("AAA",12345,23,"M",23456,"MAS","CBE","12-03-2023","srikaanth2005@gmail.com")
 ########################################################################## RAILWAY TICKET RESERVATION PROJECT (CLASS-XII) #################################################################################
-from pywhatkit import sendwhatmsg_instantly
+```from pywhatkit import sendwhatmsg_instantly
 from random import randint
 from Mail1 import sendmail
 def menu():
@@ -77,7 +77,7 @@ def menu():
             break
         else:
             print('ERROR 404:PAGE NOT FOUND')
-            break
+            break```
 def main():        
     print('1.yes')
     print('2.no')
