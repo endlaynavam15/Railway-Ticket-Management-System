@@ -221,7 +221,7 @@ def menu():
     return False
  ```       
 
-def checking_1():
+```def checking_1():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -253,10 +253,10 @@ def checking_1():
             #return False
     else:
         print('BOTH PASSWORDS ARE NOT MATCHING')
-        
+ ```       
 
 
-def checking():
+```def checking():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -281,8 +281,8 @@ def checking():
             return False
     except:
         print('ACCOUNT DOES NOT EXIST')
-
-def checking_3():
+```
+```def checking_3():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd='browse@123',database='railway')
     cursor=mycon.cursor()
@@ -318,6 +318,6 @@ def checking_3():
             return False
     except:
         print('ACCOUNT DOES NOT EXIST')
-
+```
 menu()
 #ticket_booking()
